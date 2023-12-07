@@ -1,7 +1,7 @@
 module.exports = {
   title: `Charles JH Ahn`,
   description: ``,
-  language: `ko`
+  language: `ko`,
   siteUrl: `https://charlesahn0903.github.io`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
   comments: {
@@ -90,6 +90,6 @@ module.exports = {
         // demo: 'https://www.zoomkoding.com',
         },
       },
-    ],
+    },
   },
 };
