@@ -88,8 +88,8 @@ module.exports = {
         // post: '/gatsby-starter-zoomkoding-introduction',
         // github: 'https://github.com/zoomkoding/zoomkoding-gatsby-blog',
         // demo: 'https://www.zoomkoding.com',
-        },
+        // },
       },
-    },
+    ],
   },
 };
