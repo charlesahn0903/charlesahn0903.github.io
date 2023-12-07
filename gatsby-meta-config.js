@@ -1,6 +1,6 @@
 module.exports = {
   title: `Charles JH Ahn`,
-  description: ``,
+  description: `안진형의 개발노트`,
   language: `ko`,
   siteUrl: `https://charlesahn0903.github.io`,
   ogImage: `/og-image.png`, // Path to your in the 'static' folder
@@ -79,7 +79,7 @@ module.exports = {
       // ========================================================
       // ========================================================
       {
-         title: 'Will be updated!',
+        // title: 'Will be updated!',
         // description:
         //   '',
         // techStack: ['', ''],
