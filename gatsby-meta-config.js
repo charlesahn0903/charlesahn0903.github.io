@@ -13,7 +13,7 @@ module.exports = {
   author: {
     name: `안진형`,
     bio: {
-      role: ['개발자', '삼수생', '19세'],
+      role: ['개발자', '대학생', '21세'],
       description: '꿈과 열정으로 도전하는',
       thumbnail: 'sample.png', // Path to the image in the 'asset' folder
     },
