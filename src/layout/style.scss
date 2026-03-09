@@ -38,6 +38,8 @@ a {
     color: var(--primary-text-color);
     @include content-horizontal-padding;
 
+
+
     .page-content {
         display: flex;
         flex-direction: column;

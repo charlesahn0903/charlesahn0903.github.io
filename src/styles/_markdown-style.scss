@@ -1018,7 +1018,7 @@
   //   margin-bottom: 3px;
   // }
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1750px) {
     display: none;
   }
 
@@ -1026,10 +1026,10 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  width: 340px;
+  width: 310px;
   position: fixed;
   top: 75px;
-  right: 0px;
+  right: 15px;
 
   ul {
     cursor: pointer;
@@ -1075,4 +1075,33 @@
   font-style: italic;
   font-size: 15px;
   color: #6a737d;
+}
+
+.markdown sub, sup {
+  /* Specified in % so that the sup/sup is the
+     right size relative to the surrounding text */
+  font-size: 75%;
+ 
+  /* Zero out the line-height so that it doesn't
+     interfere with the positioning that follows */
+  line-height: 0;
+ 
+  /* Where the magic happens: makes all browsers position
+     the sup/sup properly, relative to the surrounding text */
+  position: relative;
+ 
+  /* Note that if you're using Eric Meyer's reset.css, this
+     is already set and you can remove this rule */
+  vertical-align: baseline;
+}
+ 
+.markdown sup {
+  /* Move the superscripted text up */
+  top: -0.5em;
+}
+ 
+.markdown sub {
+  /* Move the subscripted text down, but only
+     half as far down as the superscript moved up */
+  bottom: -0.25em;
 }
